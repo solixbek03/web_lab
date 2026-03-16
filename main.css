@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
 
    
-    background-image: url('https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1200&q=80');
+    background-image: url('./images/fons.png');
     background-size: cover;        
     background-position: center;   
     background-attachment: fixed;  
@@ -126,7 +126,7 @@ button:hover{
 .contact{
     display:flex;
     justify-content:center;
-    padding:80px 20px;
+    padding:40px -1px;
 }
 
 .contact-box{
@@ -149,7 +149,7 @@ button:hover{
 
 /* REVIEWS */
 .reviews-section{
-    padding:80px 20px;
+    padding:40px;
 }
 
 .reviews-container{
@@ -214,6 +214,88 @@ button:hover{
     font-weight:bold;
 }
 
+/* FOOTER */
+
+.footer{
+background:#111;
+color:white;
+padding:50px 20px 20px;
+margin-top:30px;
+}
+
+.footer-container{
+max-width:1200px;
+margin:auto;
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+gap:30px;
+}
+
+.footer-box{
+flex:1;
+min-width:220px;
+}
+
+.footer-box h2{
+color:#d4a373;
+margin-bottom:10px;
+}
+
+.footer-box h3{
+margin-bottom:15px;
+color:#d4a373;
+}
+
+.footer-box p{
+line-height:1.6;
+}
+
+.footer-box ul{
+list-style:none;
+padding:0;
+}
+
+.footer-box ul li{
+margin-bottom:8px;
+}
+
+.footer-box ul li a{
+text-decoration:none;
+color:white;
+transition:0.3s;
+}
+
+.footer-box ul li a:hover
+
+/* social icons */
+
+.socials{
+display:flex;
+gap:15px;
+font-size:22px;
+}
+
+.socials a{
+text-decoration:none;
+color:white;
+transition:0.3s;
+}
+
+.socials a:hover{
+color:#d4a373;
+transform:scale(1.2);
+}
+
+.footer-bottom{
+text-align:center;
+border-top:1px solid rgba(255,255,255,0.1);
+margin-top:40px;
+padding-top:15px;
+font-size:14px;
+}
+
+
 /* MODAL */
 .modal{
     display:none;
@@ -240,4 +322,166 @@ button:hover{
     font-size:28px;
     cursor:pointer;
     float:right;
+}
+
+/* ABOUT PAGE */
+
+.about-hero {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+}
+
+.about-company {
+    display: flex;
+    gap: 40px;
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    background-color: #8b5a2b;
+    color: #ccc;
+    border-radius: 30px;
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.about-text h2 {
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.about-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-features {
+    padding: 30px;
+    text-align: center;
+}
+.about-col{
+    color: #111;
+    padding: 5px;
+    background-color:white;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    margin-left: 38%;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.feature {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-stats {
+    background: #8b5a2b;
+    color: white;
+    padding: 60px 20px;
+    width: 600px;
+    margin-left: 33%;
+    border-radius: 10px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.stat h2 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+/* CONTACT PAGE */
+
+.contact-hero{
+height:250px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:rgba(0,0,0,0.6);
+color:white;
+text-align:center;
+}
+
+.contact-page{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+padding:80px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.contact-info{
+background:white;
+padding:30px;
+border-radius:10px;
+width:350px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contact-info h2{
+margin-bottom:20px;
+}
+
+.contact-info p{
+margin-bottom:10px;
+}
+
+.contact-form-box{
+background:white;
+padding:30px;
+border-radius:10px;
+width:400px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.map{
+padding:60px 20px;
+text-align:center;
+}
+
+.map-box{
+max-width:900px;
+margin:auto;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
